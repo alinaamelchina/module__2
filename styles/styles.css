@@ -53,7 +53,7 @@ body {
     height: 717px;
     margin-bottom: 10px;
     padding-left: 125px;
-    background-image: url('/resourses/logo.png');
+    background-image: url('../resourses/logo.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -160,7 +160,7 @@ h5 {
         width: 100%;
     }
     .introduction {
-        background-image: url('/resourses/foto-tablet.png');
+        background-image: url('../resourses/foto-tablet.png');
         background-size: cover;
     }
     .Hello {
@@ -261,7 +261,7 @@ h5 {
 @media (max-width: 767px) {
     
     .introduction {
-        background-image: url('/resourses/man-mobile.png');
+        background-image: url('../resourses/man-mobile.png');
         height: 716px;
         background-repeat: no-repeat;
     }

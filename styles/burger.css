@@ -104,7 +104,7 @@
         position: absolute;
         right: 3px;
         top: 19px;
-        background-image: url(/resourses/burger-icon.png);
+        background-image: url(../resourses/burger-icon.png);
         width: 63px;
         height: 63px;
         border: none;
@@ -117,7 +117,7 @@
         position: absolute;
         width: 34px;
         height: 34px;
-        background-image: url(/resourses/radix-icons_cross-2.png);
+        background-image: url(../resourses/radix-icons_cross-2.png);
         background-color: #000;
         background-repeat: no-repeat;
         background-position: center;
@@ -148,7 +148,7 @@
     .burger-btn {
         display: block;
         position: absolute;
-        background-image: url(/resourses/burger-icon.png);
+        background-image: url(../resourses/burger-icon.png);
         width: 63px;
         height: 63px;
         border: none;
@@ -161,7 +161,7 @@
         position: absolute;
         width: 34px;
         height: 34px;
-        background-image: url(/resourses/radix-icons_cross-2.png);
+        background-image: url(../resourses/radix-icons_cross-2.png);
         background-color: #000;
         background-repeat: no-repeat;
         background-position: center;

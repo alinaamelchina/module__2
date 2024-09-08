@@ -105,22 +105,22 @@ h3 {
     }
     
     .picture_html:before {
-        background-image: url(/resourses/html-tablet.png);
+        background-image: url(../resourses/html-tablet.png);
         width: 36px;
         height: 36px;
     }
     .picture_js:before {
-        background-image: url(/resourses/js-tablet.png);
+        background-image: url(../resourses/js-tablet.png);
         width: 36px;
         height: 36px;
     }
     .picture_framework:before {
-        background-image: url(/resourses/frame-tablet.png);
+        background-image: url(../resourses/frame-tablet.png);
         width: 36px;
         height: 36px;
     }
     .picture_mobile:before {
-        background-image: url(/resourses/mobile-tablet.png);
+        background-image: url(../resourses/mobile-tablet.png);
         width: 36px;
         height: 36px;
     }
