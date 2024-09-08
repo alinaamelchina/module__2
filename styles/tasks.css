@@ -1,0 +1,112 @@
+h4 {
+    margin-bottom: 80px;
+    margin-left: 125px;
+    width: 403px;
+    color: #FFF;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+.tasks-img {
+    border-radius: 30px;
+    margin-left: 125px;
+}
+
+.tasks-key {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+    margin-left: 125px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    width: 1150px;
+    height: 283px;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+.tasks-title {
+    width: 487px;
+    margin-left: 40px;
+    color: #1BFF07;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+.tasks-text {
+    width: 525px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+.tasks-key_last {
+    margin-bottom: 150px;
+}
+@media (max-width: 1199px) {
+    h4 {
+        margin-bottom: 60px;
+        margin-left: 15px;
+        width: 326px;
+        font-size: 28px;
+        letter-spacing: -0.849px;
+    }
+    .tasks-img {
+        border-radius: 24.261px;
+        margin-left: 15px;
+    }
+    
+    .tasks-key {
+        gap: 57px;
+        margin-left: 15px;
+        margin-bottom: 32px;
+        padding-top: 32px;
+        width: 930px;
+        height: 229px;
+        border-radius: 24.261px;
+    }
+    .tasks-title {
+        width: 394px;
+        margin-left: 32px;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+    .tasks-text {
+        width: 425px;
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+    .tasks-key_last {
+        margin-bottom: 110px;
+    }
+}
+
+
+
+@media (max-width: 767px) { 
+    .tasks-key {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 60px;
+        padding-top: 30px;
+        width: 348px;
+        height: 397px;
+    }
+    .tasks-title {
+        width: 294px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        font-size: 35px;
+        letter-spacing: -1.05px;
+    }
+    .tasks-text {
+        margin-left: 21px;
+        width: 304px;
+    }
+    .tasks-key_last {
+        margin-bottom: 100px;
+        height: 427px;
+    }
+    .tasks-key_midle {
+        height: 307px;
+    }
+}

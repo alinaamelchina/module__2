@@ -1,0 +1,145 @@
+h3 {
+    margin-left: 123px;
+    margin-bottom: 80px;
+    width: 1048px;
+    color: #FFF;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+.competencies-inner {
+    display: flex;
+    margin-left: 123px;
+    margin-bottom: 150px;
+}
+.boxes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px;
+}
+.list-сompetencies {
+    width: 570px;
+    position: relative;
+}
+   
+.list-title { 
+    color: #1BFF07;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+.list-title_inner {
+    margin-bottom: 54px;
+}
+
+.list-text {
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.picture_html:before {
+    content: "";
+    position: absolute;
+    background-image: url(/resourses/html.png);
+    width: 45px;
+    height: 44px;
+}
+.picture_js:before {
+    content: "";
+    position: absolute;
+    background-image: url(/resourses/js.png);
+    width: 45px;
+    height: 44px;
+}
+.picture_framework:before {
+    content: "";
+    position: absolute;
+    background-image: url(/resourses/frame.png);
+    width: 45px;
+    height: 44px;
+}
+.picture_mobile:before {
+    content: "";
+    position: absolute;
+    background-image: url(/resourses/mobile.png);
+    width: 45px;
+    height: 44px;
+}
+@media (max-width: 1199px) {
+    h3 {
+        margin-left: 13px;
+        margin-bottom: 60px;
+        width: 100%;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+    .competencies-inner {
+        flex-wrap: wrap;
+        margin-left: 13px;
+    }
+    .boxes-wrapper {
+        gap: 37px;
+    }
+    .list-сompetencies {
+        width: 461px;
+    }
+       
+    .list-title { 
+        margin-top: 46px;
+        margin-bottom: 13px;
+        font-size: 28px;
+        line-height: normal;
+        letter-spacing: -0.84px;
+    }
+    .list-title_inner {
+        margin-bottom: 46px;
+    }
+    
+    .list-text {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+    
+    .picture_html:before {
+        background-image: url(/resourses/html-tablet.png);
+        width: 36px;
+        height: 36px;
+    }
+    .picture_js:before {
+        background-image: url(/resourses/js-tablet.png);
+        width: 36px;
+        height: 36px;
+    }
+    .picture_framework:before {
+        background-image: url(/resourses/frame-tablet.png);
+        width: 36px;
+        height: 36px;
+    }
+    .picture_mobile:before {
+        background-image: url(/resourses/mobile-tablet.png);
+        width: 36px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .competencies-inner {
+        margin-bottom: 100px;
+    }
+    .boxes-wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .list-сompetencies {
+        width: 350px;
+    }
+       
+    .list-title_inner {
+        margin-bottom: 0px;
+    }
+
+}

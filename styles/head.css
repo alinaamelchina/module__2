@@ -1,0 +1,67 @@
+.head-wrapper {
+    display: flex;
+    position: absolute;
+    width: 1400px;
+    justify-content: space-between;
+    padding-left: 123px;
+    padding-top: 36px;
+    padding-right: 124px;
+    
+}
+.burger-btn {
+    display: none;
+}
+
+.logo-link-nav {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 39px;
+    border-radius: 100px;
+    background: #000;
+    align-items: center;
+}
+
+.nav :hover {
+    color: #1BFF07;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.nav-link {
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1199px) {
+    .head-wrapper{
+        width: 100%;
+        padding-left: 13px;
+        padding-top: 32px;
+        padding-right: 3px;
+    }
+
+    
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .head-wrapper{
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+}
