@@ -19,7 +19,7 @@ body {
 }
 
 .introduction {
-    background-image: url('/resourses/man.png');
+    background-image: url('../resourses/man.png');
     width: 100%;
     background-repeat: no-repeat;
     height: 765px;
